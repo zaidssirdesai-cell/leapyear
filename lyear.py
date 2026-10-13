@@ -8,5 +8,5 @@ def leapyear(year):
 
 if __name__ == "__main__":
     year=int(sys.argv[1])
-    print(f"{year} is aleap year")
+    print(f"{year} is {leapyear(year)}")
     print(sys.argv[0])
